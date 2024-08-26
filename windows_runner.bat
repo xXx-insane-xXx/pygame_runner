@@ -9,7 +9,7 @@ REM Activate the virtual environment
 call win_venv\Scripts\activate
 
 REM Run the game using pythonw to suppress the console
-win_venv\Scripts\pythonw.exe main.py
+start "" win_venv\Scripts\pythonw.exe main.pyw
 
 REM Deactivate the virtual environment (optional, if you want to clean up)
 deactivate
