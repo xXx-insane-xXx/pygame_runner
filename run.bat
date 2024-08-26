@@ -33,7 +33,7 @@ if %ERRORLEVEL% neq 0 (
 
 REM Run the game
 echo Running the game...
-python main.py
+./python.exe main.py
 
 REM Deactivate the virtual environment
 deactivate
