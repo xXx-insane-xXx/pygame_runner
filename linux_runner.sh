@@ -7,7 +7,7 @@ if [ ! -d "linux_venv" ]; then
 fi
 
 # Activate the virtual environment
-# source linux_venv/bin/activate
+source linux_venv/bin/activate
 
 # Run the game
 linux_venv/bin/python3 main.py > /dev/null 2>&1 &
